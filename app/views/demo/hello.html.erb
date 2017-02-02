@@ -1,0 +1,34 @@
+<html>
+    <h1>Hello World from HELLO!!!</h1>
+    
+    <%= 1 + 1 %>
+    
+    <br />
+    
+    
+    <% target = "world" %>
+    <%= "Hello #{target}" %>
+    
+    <br />
+    
+    <% @array.each do |n| %>
+    <%= n %>
+    <% end  %>
+    
+    <br />
+    <%= link_to("Please Click to Lynda", {:action => 'lynda'}) %>
+    
+    <br />
+    
+    ID: <%= @id %> <br />
+    
+    PAGE: <%= @page %> <br />
+    
+    
+    <br />
+    <br />
+    <br />
+    
+     <%= link_to("Please Click to Index", {:controller => 'application', :action => 'first'}) %>
+    
+</html>
