@@ -8,8 +8,12 @@ default: &default
  # adapter: sqlite3
  adapter: mysql2
  encoding: utf8
+ 
  username: rails_user
  password: password
+ 
+ #username: geno8702
+# password: ''
  pool: 5
  timeout: 5000
 
