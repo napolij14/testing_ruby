@@ -5,7 +5,7 @@
 ## INITIAL INSTALLATION  !!!
 To get started, just do the following:
 
-1. $ bundle install --without production
+1. $ bundle install
 2. $ mysql-ctl start
 3. $ mysql-ctl cli
 4. You just opened the mysql terminal, run these 4 statements
